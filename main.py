@@ -5,7 +5,9 @@ while True:
     try:
         numbers.remove(delval)
     except: 
-        break   
+        break  
+if len(numbers)==5:
+    numbers.clear() 
 # ******************************
 # Make your Code
 # ******************************
